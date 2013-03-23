@@ -1,0 +1,29 @@
+{
+    "name": "camelize",
+    "version": "0.0.0",
+    "description": "recursively transform key strings to camel-case",
+    "main": "index.js",
+    "devDependencies": {
+        "tap": "~0.4.0",
+        "tape": "~0.3.0"
+    },
+    "scripts": {
+        "test": "tap test/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/camelize.git"
+    },
+    "homepage": "https://github.com/substack/camelize",
+    "keywords": [
+        "camel-case",
+        "json",
+        "transform"
+    ],
+    "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+    },
+    "license": "MIT"
+}
