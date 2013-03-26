@@ -1,6 +1,6 @@
 {
     "name": "snakeize",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "recursively transform key strings from camel-case to underscore-style",
     "main": "index.js",
     "devDependencies": {
