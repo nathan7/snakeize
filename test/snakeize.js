@@ -5,7 +5,8 @@ var obj = {
     feeFieFoe: 'fum',
     beepBoop: [
         { 'abcXyz': 'mno' },
-        { 'FooBar': 'baz' }
+        { 'FooBar': 'baz' },
+        { 'CheeseID': 'wensleydale' }
     ]
 };
 
@@ -16,7 +17,8 @@ test('snakeize a nested object', function (t) {
         "fee_fie_foe": "fum",
         "beep_boop": [
             { "abc_xyz": "mno" },
-            { "foo_bar": "baz" }
+            { "foo_bar": "baz" },
+            { "cheese_id": "wensleydale" }
         ]
     });
 });
