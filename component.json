@@ -1,0 +1,17 @@
+{
+  "name": "camelize",
+  "repo": "nathan7/camelize",
+  "description": "recursively transform key strings from camel-case to underscore-style",
+  "version": "0.0.0",
+  "keywords": [
+    "camel-case",
+    "json",
+    "transform"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
