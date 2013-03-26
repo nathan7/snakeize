@@ -1,7 +1,7 @@
 {
-    "name": "camelize",
+    "name": "snakeize",
     "version": "0.0.0",
-    "description": "recursively transform key strings to camel-case",
+    "description": "recursively transform key strings from camel-case to underscore-style",
     "main": "index.js",
     "devDependencies": {
         "tap": "~0.4.0",
@@ -12,9 +12,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/substack/camelize.git"
+        "url": "git://github.com/nathan7/snakeize.git"
     },
-    "homepage": "https://github.com/substack/camelize",
+    "homepage": "https://github.com/nathan7/snakeize",
     "keywords": [
         "camel-case",
         "json",

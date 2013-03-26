@@ -1,23 +1,24 @@
-# camelize
+# snakeize 
 
-recursively transform key strings to camel-case
+recursively transform key strings from camel-case to underscore-style.
+Derives directly from [substack](https://github.com/substack)'s [camelize](https://github.com/substack/camelize)
 
-[![build status](https://secure.travis-ci.org/substack/camelize.png)](http://travis-ci.org/substack/camelize)
+[![build status](https://secure.travis-ci.org/nathan7/snakeize.png)](http://travis-ci.org/nathan7/snakeize)
 
-[![browser support](https://ci.testling.com/substack/camelize.png)](http://ci.testling.com/substack/camelize)
+[![browser support](https://ci.testling.com/nathan7/snakeize.png)](http://ci.testling.com/nathan7/snakeize)
 
 # example
 
 ``` js
-var camelize = require('camelize');
+var snakeize = require('snakeize');
 var obj = {
-    fee_fie_foe: 'fum',
-    beep_boop: [
-        { 'abc.xyz': 'mno' },
-        { 'foo-bar': 'baz' }
+    feeFieFoe: 'fum',
+    beepBoop: [
+        { 'abcXyz': 'mno' },
+        { 'fooBar': 'baz' }
     ]
 };
-var res = camelize(obj);
+var res = snakeize(obj);
 console.log(JSON.stringify(res, null, 2));
 ```
 
@@ -25,13 +26,13 @@ output:
 
 ```
 {
-  "feeFieFoe": "fum",
-  "beepBoop": [
+  "fee_fie_foe": "fum",
+  "beep_boop": [
     {
-      "abcXyz": "mno"
+      "abc_xyz": "mno"
     },
     {
-      "fooBar": "baz"
+      "foo_bar": "baz"
     }
   ]
 }
@@ -40,19 +41,19 @@ output:
 # methods
 
 ``` js
-var camelize = require('camelize')
+var snakeize = require('snakeize')
 ```
 
-## camelize(obj)
+## snakeize(obj)
 
-Convert the key strings in `obj` to camel-case recursively.
+Convert the key strings in `obj` from camel-case to underscore-stlye recursively.
 
 # install
 
 With [npm](https://npmjs.org) do:
 
 ```
-npm install camelize
+npm install snakeize
 ```
 
 To use in the browser, use [browserify](http://browserify.org).
