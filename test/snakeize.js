@@ -5,7 +5,7 @@ var obj = {
     feeFieFoe: 'fum',
     beepBoop: [
         { 'abcXyz': 'mno' },
-        { 'fooBar': 'baz' }
+        { 'FooBar': 'baz' }
     ]
 };
 
