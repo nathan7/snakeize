@@ -56,7 +56,10 @@ With [npm](https://npmjs.org) do:
 npm install snakeize
 ```
 
-To use in the browser, use [browserify](http://browserify.org).
+To use in the browser, use [browserify](http://browserify.org) or [component](http://github.com/component):
+```
+component install nathan7/snakeize
+```
 
 # license
 
