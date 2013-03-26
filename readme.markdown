@@ -15,7 +15,8 @@ var obj = {
     feeFieFoe: 'fum',
     beepBoop: [
         { 'abcXyz': 'mno' },
-        { 'fooBar': 'baz' }
+        { 'FooBar': 'baz' },
+        { 'CheeseID': 'wensleydale' }
     ]
 };
 var res = snakeize(obj);
@@ -33,6 +34,9 @@ output:
     },
     {
       "foo_bar": "baz"
+    },
+    {
+      "cheese_id": "wensleydale"
     }
   ]
 }
