@@ -1,10 +1,10 @@
 {
-  "name": "camelize",
-  "repo": "nathan7/camelize",
+  "name": "snakeize",
+  "repo": "nathan7/snakeize",
   "description": "recursively transform key strings from camel-case to underscore-style",
   "version": "0.0.1",
   "keywords": [
-    "camel-case",
+    "snake-case",
     "json",
     "transform"
   ],
