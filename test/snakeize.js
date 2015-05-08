@@ -22,3 +22,15 @@ test('snakeize a nested object', function (t) {
         ]
     });
 });
+
+test('date object is not modified', function (t) {
+    t.plan(1);
+    var d = new Date();
+    t.equal(snakeize(d), d);
+});
+
+test('regex object is not modified', function (t) {
+    t.plan(1);
+    var r = /1234/;
+    t.equal(snakeize(r), r);
+});
