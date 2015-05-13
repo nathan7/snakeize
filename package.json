@@ -16,7 +16,7 @@
     },
     "homepage": "https://github.com/nathan7/snakeize",
     "keywords": [
-        "camel-case",
+        "snake-case",
         "json",
         "transform"
     ],
